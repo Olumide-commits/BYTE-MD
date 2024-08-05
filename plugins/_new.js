@@ -20,7 +20,7 @@ let {
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `BYTE-MD CHANNEL\n *LINK:* https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `GOTH-BOT CHANNEL\n *LINK:* https://whatsapp.com/9014334521l\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -33,13 +33,13 @@ let {
 smd(
   {
     pattern: "wagroup",
-    desc: "TO GET SUPPORT NUMBER OF Hamza",
+    desc: "TO GET SUPPORT NUMBER OF GOTH",
     react: "🗨️",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const SupportMsg = `BYTE-MD WHATSAPP GROUP\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/DkHKZZ7qBjkBZDqSJLG6tL \n\n ${Config.botname} *WORKS*`;
+    const SupportMsg = `GOTH-BOT WHATSAPP GROUP\n\n *ʟɪɴᴋ:*https://chat.whatsapp.com/9014334521 \n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -150,7 +150,7 @@ smd(
    filename: __filename
  }, async _0x17bb63 => {
    try {
-     let _0x12a593 = "*HEY BYTE IS CURRENTLY ACTIVE! 👾*";
+     let _0x12a593 = "*HEY GOTH IS CURRENTLY ACTIVE! 👾*";
      await _0x17bb63.reply(_0x12a593, {
        contextInfo: {
          externalAdReply: {
@@ -281,7 +281,7 @@ smd(
          edit: _0x2d7cf6
        }, "asta", _0x4e7c63);
      } catch (_0x28ce7e) {}
-     let _0x50f17a = " *乂 BYTE-MD COMMANDS LIST*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+     let _0x50f17a = " *乂 GOTH-BOT COMMANDS LIST*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ LIST DOWN THE FEATURES*\n\n      _Commands ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
      await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
        requestPaymentMessage: {
          currencyCodeIso4217: "NG",
