@@ -3,7 +3,7 @@
     "AUTHOR": "GOTH-BOT",
     "theme": "GOTH-BOT",
     "LANGUAGE": "English",
-    "LANGCODE": "en",  
+    "LANGCODE": "en", 
     "STRINGS": { 
         "updater": { 
             "UPDATE": "Bot is up to date.",
