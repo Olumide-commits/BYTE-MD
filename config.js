@@ -16,10 +16,10 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github = process.env.GITHUB || "https://github.com";
 global.gurl = process.env.GURL || "https://whatsapp.com/";
 global.website = process.env.GURL || "https://whatsapp.com/channel/";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://drive.google.com/file/d/16VbrCSYVQjv_85TPtJuXx1FAwZSCI_HV/view?usp=drivesdk";
 global.devs = "923072380380";
 global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "9014334521";
+global.owner = process.env.OWNER_NUMBER || "09014334521";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -78,7 +78,7 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "*Powered By GOTH-BOT*",
+  caption: process.env.CAPTION || "*Powered By GOTH*",
   author: process.env.PACK_AUTHER || "GOTH",
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "GOTH-BOT",
