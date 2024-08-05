@@ -1,7 +1,7 @@
 {
-  "name": "BYTE-MD",
-  "description": "World Simplest Bot created by TalkDrove ",
-  "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg",
+  "name": "GOTH-BOT",
+  "description": "World Simplest Bot created by GOTH ",
+  "logo": "https://drive.google.com/file/d/16VbrCSYVQjv_85TPtJuXx1FAwZSCI_HV/view",
   "keywords": ["BYTE-MD", "Byte", "Hamza","TalkDrove","HyHamza","HyByte"],
   "success_url": "/",
   "stack": "container",
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "TalkDrove",
+      "value": "GOTH",
       "required": true
     },
     "SESSION_ID": {
@@ -18,8 +18,8 @@
     },
     "WELCOME": {
       "description": "put 'false' or 'true' to enable & disable WELCOME ",
-      "value": "false",
-      "required": false
+      "value": "Hey this is GOTH-BOT",
+      "required": true
     },
 
     "GOODBYE": {
@@ -30,7 +30,7 @@
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
       "required": false,
-      "value": "Asia/Karachi"
+      "value": "Nigeria"
     },
     "READ_COMMAND": {
       "description": " Read bot cmds",
@@ -88,7 +88,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "923072380380"
+      "value": "9014334521"
     },
 
     "MODE": {
@@ -97,12 +97,12 @@
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "BYTE",
+      "value": "GOTH",
       "required": false
     },
     "PACK_AUTHER": {
       "description": "Put Sticker Author_Name.",
-      "value": "TalkDrove",
+      "value": "GOTH",
       "required": false
     }
   },
